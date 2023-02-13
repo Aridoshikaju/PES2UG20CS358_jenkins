@@ -3,7 +3,7 @@ pipeline{
   stages{
   stage('Build') {
     steps{
-      sh 'g++ -o making_error PES2UG20CS358.cpp'
+      sh 'g++ -o PES2UG20CS358 PES2UG20CS358.cpp'
     }
   }
 
